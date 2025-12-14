@@ -7,26 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a first-year Master student in [Computational Biology](https://cbd.cmu.edu/) student at Carnegie Mellon University.
+Hi! I am a Master's student in [Computational Biology](https://cbd.cmu.edu/) at Carnegie Mellon University (expected 2026).
 
-I earned my Bachelor of Science degree in Bioinformatics from the [Zhejiang University - University of Edinburgh Joint Institute](https://zje.zju.edu.cn/zje/AboutUs/list.htm).
+I earned my Bachelor of Science degree in Bioinformatics from the [Zhejiang University - University of Edinburgh Joint Institute](https://zje.zju.edu.cn/zje/AboutUs/list.htm) in 2024.
 
-Research interest
+Research Interest
 ======
-My academic focus is primarily on dealing with biomedical problems using bioinformatics analysis, including but not limited to machine learning platforms and container orchestration frameworks. I am also quite interested in developing advanced Machine Learning models to reveal the mystery of Genomics and Proteinomics.
+My academic focus lies in addressing biomedical challenges through AI, Machine Learning and bioinformatics analysis, including but not limited to Virtual Cells, Biological Agent and Foundation models. I am also deeply interested in developing advanced algorithmns to unravel the complexities of Genomics and Proteomics.
 
 Collaborations
 ======
-Before joining the Carnegie Mellon University, I had the incredible opportunity to collaborate with accomplished researchers in the field.
+I am currently working with Prof. Carl Kingsford and Prof. Wei Wu at Carnegie Mellon University
 
-I worked with Prof. Christine Orengo at University College London, exploring the application of Deep Learning on enzyme design and protein function prediction.
+Before joining Carnegie Mellon University, I had the incredible opportunity to collaborate with Prof. Christine Orengo at University College London, exploring the application of Deep Learning on enzyme design and protein function prediction.
 
-In addtion, I’ve had the privilege of working with Dr. Chaochen Wang at Zhejiang University-University of Edinburgh and Dr. Jing Xue, studying the important functions of Med12 in pancreatic cancer.
+In addition, I’ve had the privilege of working with Dr. Chaochen Wang at Zhejiang University-University of Edinburgh and Dr. Jing Xue, studying the important functions of Med12 in pancreatic cancer.
 
-Personal interests
+Personal Interests
 ======
+* **Photograph**: I am currently using Canon G7X Mark III to record the great views on my journey and nice photos with my friends and families. I am also interests in astronomical photography. I captured a nice picture of the C/2023 A3 comet at Pittsburgh. Welcome to add my Instagram (shijaytang) to take a look!
 
-Create content & metadata
+<!-- Create content & metadata
 ------
 For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
@@ -44,4 +45,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
