@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Jekyll Dev Server",
+      "runtimeExecutable": "/opt/homebrew/Cellar/ruby/3.4.7/bin/bundle",
+      "runtimeArgs": ["exec", "jekyll", "serve", "--livereload", "--host", "localhost"],
+      "port": 4000
+    }
+  ]
+}

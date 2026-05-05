@@ -9,81 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/CV_Shijie_Tang_CMU.pdf)
+
 Education
 ======
-* M.S. in U.S., Carnegie Mellon University, 2026 (expected)
-* B.S. in China, Zhejiang University, 2024
+* **M.S. in Computational Biology**, Carnegie Mellon University, Pittsburgh, PA (2024 – 2026, expected)
+* **B.S. in Bioinformatics**, Zhejiang University – University of Edinburgh Joint Institute (2020 – 2024)
 
-Work experience
+Research Experience
 ======
-* Peer Learning for NLP shortcut, Carnegie Mellon University (Aug 2025 – present)
-  * Supervisor: *Prof. Carl Kingsford*
-  * Role: Research Assistant 
-    * Developed a LLM-based method to deal with shortcut problem in general NLP model
-    * Improved the algorithm’s stability, running speed and increased model inference accuracy from 0.8 to 0.94
+* **Peer Learning for NLP Shortcut Mitigation**, Carnegie Mellon University (Aug 2025 – present)
+  * Advisor: *Prof. Carl Kingsford*
+  * Developed an LLM-based method to address shortcut learning in general NLP models
+  * Improved algorithm stability and increased model inference accuracy from 0.80 to 0.94
 
-* AI-powered Accessibility Validation, Google Inc. (Jun 2025 – Aug 2025)
-  * Role: Software Engineering
-  * Tittle: AI-powered Accessibility Validation
-    * Leveraged Gemini to detect and validate end-to-end real accessibility issue cases and achieved over 0.95 recall rate.
-    * Engineered and automated an issue fetcher to enhance efficiency of internal issue collection pipelines.
-    * Deployed and integrated 12 accessibility criteria into production and reviewed the performance of 12 criteria.
+* **Controllable mRNA Sequence Design (ARCADE)**, Carnegie Mellon University (Dec 2024 – May 2025)
+  * Advisor: *Prof. Carl Kingsford*
+  * Implemented parallel computing software for RNA MFE and CAI optimization across multiple species codon databases
+  * Developed a Minimum Free Energy predictor based on mRNA secondary structure features
+  * Contributed to the model and scoring module for the ARCADE paper on controllable mRNA sequence design
 
-* mRNA sequence design, Carnegie Mellon University (Dec 2024 – May 2025)
-  * Supervisor: *Prof. Carl Kingsford*
-  * Role: Research Assistant 
-    * Implemented a RNA MFE and CAI parallel computing software, adapting different species codon database.
-    * Investigated and developed Minimum Free Energy predictor based on mRNA features includes secondary structure.
-    * Contributed to the model and scoring module for controllable mRNA sequence design, leading to the ARCADE paper.
+* **Protein Sequence Design**, University College London (Jun – Sep 2023)
+  * Advisor: *Prof. Christine Orengo*
+  * Trained and optimized deep learning models for enzyme design by redesigning model architecture and incorporating the SAM optimizer
+  * Extracted protein embeddings using advanced protein language models (ESM, AlphaFold2)
+  * Applied statistical analyses to characterize training dynamics and identify critical failure modes
 
-* Protein sequence design, University College London (Jun 2023 – Sep 2023)
-  * Supervisor: *Prof. Christine Orengo*
-  * Role: Research Assistant 
-    * Trained and optimized a deep learning model for protein design in Python by redesigning model’s structure and
-    incorporating the SAM algorithm.
-    * Augmented datasets and extracted protein embeddings using multiple advanced protein language models.
-    * Applied statistical analyses to identify critical issues in deep-learning model training dynamics.
+* **MED12 in Pancreatic Cancer**, ZJU–Edinburgh Joint Institute (Jun 2022 – Jun 2023)
+  * Advisors: *Dr. Chaochen Wang & Dr. Jing Xue*
+  * Performed integrated multi-omics analysis to characterize MED12's role in histone regulation and immune evasion
+  * Applied statistical analyses and visualized downstream results in R
+  * Published as **co-first author** in *Gut* (IF: 24.5, 2024)
 
-* Protein sequence design with VariPred, University College London (Jun 2023 – Sep 2023)
-  * Supervisor: *Prof. Christine Orengo*
-  * Role: Research Assistant 
-    * Trained and optimized a deep learning model for protein design in Python by redesigning model’s structure and
-    incorporating the SAM algorithm.
-    * Augmented datasets and extracted protein embeddings using multiple advanced protein language models.
-    * Applied statistical analyses to identify critical issues in deep-learning model training dynamics.
-
-* Med12 in pancreatic cancer, Zhejiang University-University of Edinburgh Institute (Jun 2022 – Jun 2023)
-  * Supervisor: *Prof. Chaochen Wang & Prof. Xue Jing *
-  * Role: Research Assistant 
-    * Confirmed role of Med12 to histones by performing integrated statistical analysis on multi-omics datasets.
-    * Applied statistical analyses and visualized downstream analysis results in R.
-    * Published original research as a Co-First Author in the high-impact journal, Gut (2024)
+Industry Experience
+======
+* **Software Engineering Intern**, Google Inc. (Jun – Aug 2025)
+  * Leveraged Gemini to detect and validate end-to-end accessibility issues, achieving >0.95 recall rate
+  * Engineered and automated an issue fetcher to enhance efficiency of internal issue collection pipelines
+  * Deployed and integrated 12 accessibility criteria into production and evaluated their performance
 
 Skills
 ======
-* Programming Language: Python, R, Java, Linux, MySQL
-* AI/ML library: Pytorch, TensorFlow, Keras, Scikit-learn
-* Bioinformatics: AlphaFold2, ESM, Seurat, PyMOL, Biopython
-* Language skills: English (fluent), Mandarin(native)
+* **Programming**: Python, R, Java, SQL, Bash/Linux
+* **ML/DL Frameworks**: PyTorch, TensorFlow, Keras, Scikit-learn
+* **Bioinformatics Tools**: AlphaFold2, ESM, Seurat, PyMOL, Biopython
+* **Languages**: English (fluent), Mandarin (native)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-<!-- Talks
+
+Service & Leadership
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+* Reviewer for computational biology manuscripts (informal)

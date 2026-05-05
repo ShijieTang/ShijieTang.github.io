@@ -1,48 +1,64 @@
 ---
 permalink: /
-title: "Shijie's Homepage"
+title: "Shijie Tang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi! I am a Master's student in [Computational Biology](https://cbd.cmu.edu/) at Carnegie Mellon University (expected 2026).
+I am a Master's student in [Computational Biology](https://cbd.cmu.edu/) at Carnegie Mellon University (expected 2026), working with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.stat.cmu.edu/~weiwu2/). My research lies at the intersection of **machine learning**, **computational genomics**, and **sequence design**, with a focus on developing AI-driven methods to address fundamental challenges in molecular biology.
 
-I earned my Bachelor of Science degree in Bioinformatics from the [Zhejiang University - University of Edinburgh Joint Institute](https://zje.zju.edu.cn/zje/AboutUs/list.htm) in 2024.
+I received my B.S. in Bioinformatics from the [ZJU–University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024. I have collaborated with [Prof. Christine Orengo](https://www.ucl.ac.uk/biochemical-engineering/people/professor-christine-orengo) at University College London on protein design, and my cancer genomics research at ZJU-Edinburgh resulted in a **co-first author publication in *Gut*** (2024, IF: 24.5).
 
-Research Interest
-======
-My academic focus lies in addressing biomedical challenges through AI, Machine Learning and bioinformatics analysis, including but not limited to Virtual Cells, Biological Agent and Foundation models. I am also deeply interested in developing advanced algorithmns to unravel the complexities of Genomics and Proteomics.
+## News
 
-Collaborations
-======
-I am currently working with Prof. Carl Kingsford and Prof. Wei Wu at Carnegie Mellon University
+- **[Aug 2025]** Started new research project on shortcut learning in NLP with Prof. Carl Kingsford at CMU
+- **[Jun–Aug 2025]** Software Engineering Intern at **Google** — built AI-powered accessibility validation system using Gemini, achieving >0.95 recall
+- **[May 2025]** Contributed to the **ARCADE** paper on controllable mRNA sequence design
+- **[Aug 2024]** Co-first author paper published in ***Gut***: MED12 loss sensitizes pancreatic cancer to immunotherapy
 
-Before joining Carnegie Mellon University, I had the incredible opportunity to collaborate with Prof. Christine Orengo at University College London, exploring the application of Deep Learning on enzyme design and protein function prediction.
+## Research Interests
 
-In addition, I’ve had the privilege of working with Dr. Chaochen Wang at Zhejiang University-University of Edinburgh and Dr. Jing Xue, studying the important functions of Med12 in pancreatic cancer.
+My research focuses on building computational methods and AI models that decode biological complexity:
 
-Personal Interests
-======
-* **Photograph**: I am currently using Canon G7X Mark III to record the great views on my journey and nice photos with my friends and families. I am also interests in astronomical photography. I captured a nice picture of the C/2023 A3 comet at Pittsburgh. Welcome to add my Instagram (shijaytang) to take a look!
+- **Sequence design**: Developing controllable generative models for mRNA and protein sequences with optimized properties
+- **Foundation models for biology**: Leveraging large language models and representation learning for genomics and proteomics
+- **Cancer genomics**: Integrative multi-omics analysis to uncover mechanisms of tumor immune evasion
+- **Shortcut learning in NLP**: Peer learning approaches to improve robustness of large language models
 
-<!-- Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Selected Publications
 
-**Markdown generator**
+**Models Know Their Shortcuts: Deployment-Time Shortcut Mitigation**  
+Li J, **Tang S**, Kaynar G, Du S, Kingsford C. *arXiv:2604.12277*, 2026. \[[Paper](https://arxiv.org/abs/2604.12277)\]
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+**CodonRL: Multi-Objective Codon Sequence Optimization Using Demonstration-Guided Reinforcement Learning**  
+Du S, Kaynar G, Li J, You Z, **Tang S**, Kingsford C. *bioRxiv*, 2026. \[[Paper](https://www.biorxiv.org/content/10.64898/2026.02.12.705465v1)\]
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**ARCADE: Controllable Codon Design from Foundation Models via Activation Engineering**  
+Li J, Lai HS, Liang L, Du S, **Tang S**, Kingsford C. *bioRxiv*, 2025. \[[Paper](https://www.biorxiv.org/content/10.1101/2025.08.19.668819v2)\]
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**MED12 loss activates endogenous retroelements to sensitise immunotherapy in pancreatic cancer**  
+Tang Y\*, **Tang S\***, Yang W, et al. *Gut*, 2024. \[[DOI](https://doi.org/10.1136/gutjnl-2024-332350)\] (\*co-first author)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+## Research Experience
+
+**Carnegie Mellon University** — Research Assistant (Aug 2025 – present)  
+*Advisors: Prof. Carl Kingsford & Prof. Wei Wu*  
+Developing LLM-based methods to mitigate shortcut learning in NLP models, improving inference accuracy from 0.80 to 0.94.
+
+**Carnegie Mellon University** — Research Assistant (Dec 2024 – May 2025)  
+*Advisor: Prof. Carl Kingsford*  
+Contributed to ARCADE, a controllable mRNA sequence design framework. Implemented parallel computing for RNA MFE and CAI optimization across multiple species codon databases and developed MFE predictors leveraging secondary structure features.
+
+**University College London** — Research Assistant (Jun – Sep 2023)  
+*Advisor: Prof. Christine Orengo*  
+Applied deep learning and protein language models (ESM, AlphaFold2) for enzyme design and protein function prediction. Incorporated the SAM optimizer and performed statistical analysis of training dynamics.
+
+**ZJU–Edinburgh Joint Institute** — Research Assistant (Jun 2022 – Jun 2023)  
+*Advisors: Dr. Chaochen Wang & Dr. Jing Xue*  
+Performed integrative multi-omics analysis characterizing MED12's role in histone regulation and immune evasion in pancreatic cancer, resulting in a co-first author publication in *Gut*.
+
+## Personal Interests
+
+Outside of research, I enjoy astrophotography and travel photography with my Canon G7X Mark III. I recently captured Comet C/2023 A3 from Pittsburgh.
