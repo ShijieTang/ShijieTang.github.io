@@ -126,24 +126,21 @@
 }
 
 .story-gallery__grid {
-  column-count: 3;
-  column-gap: 0.8em;
+  --gallery-gap: 0.8em;
+  --gallery-row: 8px;
 
-  @include breakpoint(max-width $large) {
-    column-count: 2;
-  }
-
-  @include breakpoint(max-width $medium) {
-    column-count: 1;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-flow: dense;
+  grid-auto-rows: var(--gallery-row);
+  gap: var(--gallery-gap);
 }
 
 .story-gallery__photo {
   display: block;
-  break-inside: avoid;
   min-width: 0;
-  margin-bottom: 0.8em;
   color: inherit;
+  line-height: 0;
   text-decoration: none;
 
   img {

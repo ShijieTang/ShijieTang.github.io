@@ -48,6 +48,47 @@ I shoot with a Canon G7X Mark III. This is a small visual journal of trips, nigh
       return;
     }
 
+    var resizeFrame;
+
+    function updatePhotoShape(photo) {
+      var img = photo.querySelector("img");
+      if (!img || !img.naturalWidth || !img.naturalHeight) {
+        return;
+      }
+
+      var grid = photo.closest(".story-gallery__grid");
+      var gridStyles = window.getComputedStyle(grid);
+      var rowHeight = parseFloat(gridStyles.getPropertyValue("grid-auto-rows")) || 8;
+      var rowGap = parseFloat(gridStyles.getPropertyValue("row-gap")) || 0;
+      var imageRatio = img.naturalWidth / img.naturalHeight;
+      var imageHeight = img.getBoundingClientRect().height;
+      var span = Math.ceil((imageHeight + rowGap) / (rowHeight + rowGap));
+
+      photo.classList.toggle("story-gallery__photo--portrait", imageRatio < 0.9);
+      photo.classList.toggle("story-gallery__photo--landscape", imageRatio > 1.1);
+      photo.style.gridRowEnd = "span " + Math.max(1, span);
+    }
+
+    function updateGalleryLayout() {
+      gallery.querySelectorAll(".story-gallery__photo").forEach(updatePhotoShape);
+    }
+
+    function scheduleGalleryLayout() {
+      window.cancelAnimationFrame(resizeFrame);
+      resizeFrame = window.requestAnimationFrame(updateGalleryLayout);
+    }
+
+    gallery.querySelectorAll(".story-gallery__photo img").forEach(function(img) {
+      if (img.complete) {
+        updatePhotoShape(img.closest(".story-gallery__photo"));
+      } else {
+        img.addEventListener("load", scheduleGalleryLayout);
+      }
+    });
+    scheduleGalleryLayout();
+
+    window.addEventListener("resize", scheduleGalleryLayout);
+
     document.addEventListener("contextmenu", function(event) {
       if (event.target.closest(".story-gallery img, .mfp-img")) {
         event.preventDefault();
