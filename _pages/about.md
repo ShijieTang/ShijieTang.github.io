@@ -41,12 +41,12 @@ redirect_from:
   <article>
     <span>01 / Current role</span>
     <strong>Software Engineer, Google</strong>
-    <p>Building production systems with an AI and accessibility background.</p>
+    <p>Building AI platform for Android. </p>
   </article>
   <article>
     <span>02 / Recent milestone</span>
     <strong>M.S. Computational Biology, CMU</strong>
-    <p>Graduated in May 2026 after research with the Kingsford and Wu groups.</p>
+    <p>Graduated in May 2026.</p>
   </article>
   <article>
     <span>03 / Personal angle</span>
@@ -67,7 +67,7 @@ I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint
 
 ## News
 
-- **[Jun 2026]** Joined **Google** as a Software Engineer
+- **[July 2026]** Joined **Google** as a Software Engineer
 - **[May 2026]** Graduated from **Carnegie Mellon University** with an M.S. in Computational Biology
 - **[Aug 2025]** Started new research project on shortcut learning in NLP with Prof. Carl Kingsford at CMU
 - **[Jun-Aug 2025]** Software Engineering Intern at **Google** - built AI-powered accessibility validation system using Gemini, achieving >0.95 recall
@@ -110,7 +110,7 @@ Tang Y\*, **Tang S\***, Yang W, et al. *Gut*, 2024. \[[DOI](https://doi.org/10.1
 ## Research Experience
 
 **Carnegie Mellon University** — Research Assistant (Aug 2025 – May 2026)<br>
-*Advisors: Prof. Carl Kingsford & Prof. Wei Wu*  
+*Advisors: Prof. Carl Kingsford*  
 Developed LLM-based methods to mitigate shortcut learning in NLP models, improving inference accuracy from 0.80 to 0.94.
 
 **Carnegie Mellon University** — Research Assistant (Dec 2024 – May 2025)  
@@ -127,4 +127,4 @@ Performed integrative multi-omics analysis characterizing MED12's role in histon
 
 ## Personal Interests
 
-Outside of work, I enjoy astrophotography and travel photography with my Canon G7X Mark III. I recently captured Comet C/2023 A3 from Pittsburgh.
+Outside of work, I enjoy astrophotography and travel photography with my Canon G7X Mark III.

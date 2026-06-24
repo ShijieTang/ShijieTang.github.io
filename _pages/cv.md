@@ -18,9 +18,8 @@ Education
 
 Industry Experience
 ======
-* **Software Engineer**, Google (Jun 2026 - present)
-  * Building production software at Google after completing the M.S. program at Carnegie Mellon University in May 2026
-  * Continuing to apply engineering and AI experience across reliable, user-facing systems
+* **Software Engineer**, Google (July 2026 - present)
+  * AI platform for Android 
 
 * **Software Engineering Intern**, Google Inc. (Jun - Aug 2025)
   * Leveraged Gemini to detect and validate end-to-end accessibility issues, achieving >0.95 recall rate
@@ -64,7 +63,3 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Service & Leadership
-======
-* Reviewer for computational biology manuscripts (informal)
