@@ -24,7 +24,7 @@ I shoot with a Canon G7X Mark III. This is a small visual journal of trips, nigh
           <p class="story-gallery__kicker">{{ trip.title }}{% if trip.date %} / {{ trip.date }}{% endif %}</p>
           <h2>{{ trip.location }}</h2>
           <p>{{ trip.summary }}</p>
-          {% if trip.companions %}
+          {% if trip.companions != blank %}
             <p class="story-gallery__companions">With {{ trip.companions }}</p>
           {% endif %}
         </div>

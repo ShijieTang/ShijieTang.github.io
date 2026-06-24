@@ -126,22 +126,30 @@
 }
 
 .story-gallery__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.8em;
+  column-count: 3;
+  column-gap: 0.8em;
+
+  @include breakpoint(max-width $large) {
+    column-count: 2;
+  }
+
+  @include breakpoint(max-width $medium) {
+    column-count: 1;
+  }
 }
 
 .story-gallery__photo {
   display: block;
+  break-inside: avoid;
   min-width: 0;
+  margin-bottom: 0.8em;
   color: inherit;
   text-decoration: none;
 
   img {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    height: auto;
     border-radius: 5px;
     background: mix(#fff, $border-color, 55%);
     user-select: none;
