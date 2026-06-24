@@ -1,6 +1,9 @@
 # Ignore the contents of the _site directory
 _site/
 
+# Ignore OS-generated metadata
+.DS_Store
+
 # Ignore the directory for local files during development
 local/
 
