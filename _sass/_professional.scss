@@ -122,6 +122,19 @@ a {
     line-height: 1.72;
   }
 
+  > p {
+    hyphens: auto;
+    text-align: justify;
+    text-align-last: left;
+    text-justify: inter-word;
+  }
+
+  > p a {
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba($portfolio-blue, 0.28);
+  }
+
   strong {
     color: $portfolio-ink;
   }

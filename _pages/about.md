@@ -9,8 +9,8 @@ redirect_from:
 
 <section class="profile-hero" aria-label="Introduction">
   <div class="profile-hero__copy">
-    <p class="profile-kicker">Google Software Engineer / CMU Computational Biology</p>
-    <h1>Building <span class="profile-rotator" data-role-rotator data-phrases="reliable AI tools|accessibility systems|sequence-design software|research software">reliable AI tools</span> for software and biology.</h1>
+    <p class="profile-kicker">Google Software Engineer / CMU Computational Biology / ZJU-UoE Bioinformatics</p>
+    <h1>Hi, welcome to my personal website!</h1>
     <p class="profile-lede">I am Shijie Tang, a Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
 
     <div class="profile-actions" aria-label="Primary links">
@@ -22,8 +22,9 @@ redirect_from:
     <div class="profile-tags" aria-label="Profile highlights">
       <span>Google SWE</span>
       <span>CMU M.S. 2026</span>
-      <span>AI accessibility</span>
-      <span>Sequence design</span>
+      <span>AI Peer Review</span>
+      <span>AI Accessibility</span>
+      <span>Computational Biology</span>
     </div>
 
     <div class="profile-pipeline" aria-label="Working style">
@@ -56,7 +57,7 @@ redirect_from:
 
 ## About
 
-I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.stat.cmu.edu/~weiwu2/). I am now a **Software Engineer at Google**.
+I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.cs.cmu.edu/~weiwu2/). I am now a **Software Engineer at Google**.
 
 My work sits at the intersection of production software engineering, machine learning, and computational biology. I am especially interested in building AI systems that are reliable, measurable, and useful in real workflows.
 
