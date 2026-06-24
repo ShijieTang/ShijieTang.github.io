@@ -7,31 +7,59 @@ redirect_from:
   - /about.html
 ---
 
-<section class="profile-hero" markdown="1">
-<p class="profile-eyebrow">Software Engineer at Google</p>
+<section class="profile-hero" aria-label="Introduction">
+  <div class="profile-hero__copy">
+    <p class="profile-kicker">Google Software Engineer / CMU Computational Biology</p>
+    <h1>Building <span class="profile-rotator" data-role-rotator data-phrases="reliable AI systems|accessibility tools|sequence-design software|research-grade products">reliable AI systems</span> where software engineering meets biology.</h1>
+    <p class="profile-lede">I am Shijie Tang, a Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
 
-<p class="profile-lede">I build reliable software and AI systems, with a background in machine learning, computational biology, accessibility tooling, and sequence design.</p>
+    <div class="profile-actions" aria-label="Primary links">
+      <a class="profile-button profile-button--primary" href="/cv/">View CV</a>
+      <a class="profile-button" href="/publications/">Publications</a>
+      <a class="profile-button" href="https://github.com/ShijieTang">GitHub</a>
+    </div>
 
-<div class="profile-actions">
-  <a class="btn btn--primary" href="/cv/">View CV</a>
-  <a class="btn btn--secondary" href="/publications/">Publications</a>
-  <a class="btn btn--secondary" href="https://github.com/ShijieTang">GitHub</a>
-</div>
+    <div class="profile-tags" aria-label="Profile highlights">
+      <span>Google SWE</span>
+      <span>CMU M.S. 2026</span>
+      <span>AI accessibility</span>
+      <span>Sequence design</span>
+    </div>
+
+    <div class="profile-pipeline" aria-label="Working style">
+      <span>Research</span>
+      <i aria-hidden="true"></i>
+      <span>Prototype</span>
+      <i aria-hidden="true"></i>
+      <span>Ship</span>
+    </div>
+  </div>
+
+  <aside class="profile-hero__visual" aria-label="Personal profile photo and context">
+    <img src="/images/photo-s.jpg" alt="Shijie Tang near the Washington Monument">
+    <div class="profile-photo-card">
+      <span>Current chapter</span>
+      <strong>From CMU research to production systems at Google</strong>
+    </div>
+  </aside>
 </section>
 
 <section class="profile-snapshot" aria-label="Current profile snapshot">
-  <div>
-    <span>Current role</span>
+  <article>
+    <span>01 / Current role</span>
     <strong>Software Engineer, Google</strong>
-  </div>
-  <div>
-    <span>Recent degree</span>
-    <strong>M.S. Computational Biology, CMU, May 2026</strong>
-  </div>
-  <div>
-    <span>Core strengths</span>
-    <strong>Production software, applied AI, ML research</strong>
-  </div>
+    <p>Building production systems with an AI and accessibility background.</p>
+  </article>
+  <article>
+    <span>02 / Recent milestone</span>
+    <strong>M.S. Computational Biology, CMU</strong>
+    <p>Graduated in May 2026 after research with the Kingsford and Wu groups.</p>
+  </article>
+  <article>
+    <span>03 / Personal angle</span>
+    <strong>Engineer, researcher, photographer</strong>
+    <p>Interested in reliable AI tools, biological sequence design, and visual storytelling.</p>
+  </article>
 </section>
 
 ## About

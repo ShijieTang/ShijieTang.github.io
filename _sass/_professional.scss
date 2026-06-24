@@ -248,7 +248,7 @@ figcaption {
   }
 }
 
-.profile-snapshot > div,
+.profile-snapshot > article,
 .focus-card {
   min-width: 0;
   padding: 1rem;
@@ -259,12 +259,12 @@ figcaption {
   box-shadow: 0 10px 28px rgba(60, 64, 67, 0.08);
 }
 
-.profile-snapshot > div:nth-child(2),
+.profile-snapshot > article:nth-child(2),
 .focus-card:nth-child(2) {
   border-top-color: $portfolio-green;
 }
 
-.profile-snapshot > div:nth-child(3),
+.profile-snapshot > article:nth-child(3),
 .focus-card:nth-child(3) {
   border-top-color: $portfolio-yellow;
 }
