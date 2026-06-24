@@ -21,9 +21,9 @@ Recently, I have been working on a small project around this question: [paper_re
 
 ## 1. The growth of AI use in peer review
 
-AI is already entering the peer-review workflow, even when it is not always formally acknowledged. A recent arXiv paper, "Can We Trust AI Referees? On the Security and Reliability of AI Peer Review," summarizes a broader trend: scientific output is increasing, reviewer capacity is limited, and LLMs are attractive because they can quickly summarize papers, identify weaknesses, and generate review-style feedback.[^1]
+AI is already entering the peer-review workflow, even when it is not always formally acknowledged. A recent arXiv paper, ["Can We Trust AI Referees? On the Security and Reliability of AI Peer Review"](https://arxiv.org/html/2604.23593v1), summarizes a broader trend: scientific output is increasing, reviewer capacity is limited, and LLMs are attractive because they can quickly summarize papers, identify weaknesses, and generate review-style feedback.
 
-The same paper also points out that AI use in reviewing is no longer just hypothetical. Some conferences and research communities are experimenting with AI-assisted reviewing, while other venues are tightening their policies because of confidentiality, reliability, and misuse concerns.[^1]
+The same paper also points out that AI use in reviewing is no longer just hypothetical. Some conferences and research communities are experimenting with AI-assisted reviewing, while other venues are tightening their policies because of confidentiality, reliability, and misuse concerns.
 
 From an author's perspective, this is understandable. Before submitting to a conference or journal, it is useful to ask:
 
@@ -37,7 +37,7 @@ These are exactly the kinds of questions where an AI assistant can be helpful, e
 
 ## 2. Security and bias concerns in AI peer-review systems
 
-The paper that caught my attention focuses on the security and reliability risks of AI peer review. It describes how AI referees can be vulnerable across the review lifecycle, including manuscript processing, deep review, rebuttal handling, and meta-review synthesis.[^1]
+The paper that caught my attention focuses on the security and reliability risks of AI peer review. It describes how AI referees can be vulnerable across the review lifecycle, including manuscript processing, deep review, rebuttal handling, and meta-review synthesis.
 
 Several risks are especially relevant:
 
@@ -49,7 +49,9 @@ Several risks are especially relevant:
 
 These problems do not mean AI peer review is useless. Instead, they show that AI peer-review systems should be treated as evaluative infrastructure, not just chatbots with a review prompt.
 
-My current view is that the risk level depends heavily on the use case. For **personal use**, such as an author uploading their own draft to get suggestions, strong adversarial defenses may not be the first priority. If the author simply wants honest feedback, there is little reason for them to attack their own review assistant. Basic checks and transparent warnings may be enough.
+My current view is that the risk level depends heavily on the use case:
+
+For **personal use**, such as an author uploading their own draft to get suggestions, strong adversarial defenses may not be the first priority. If the author simply wants honest feedback, there is little reason for them to attack their own review assistant. Basic checks and transparent warnings may be enough.
 
 For **business use**, journal platforms, or critical conference workflows, the standard must be much higher. In those settings, incentives change. People may try to influence the review, protect reputation, or gain acceptance. Security guardrails, anonymization, audit logs, and stress tests become necessary rather than optional.
 
@@ -90,8 +92,8 @@ The dataset should include papers with real or realistic peer-review information
 - paper ID,
 - accept or reject decision,
 - review scores,
-- reviewer strengths,
-- reviewer weaknesses,
+- manuscript strengths,
+- manuscript weaknesses,
 - optional rebuttal text,
 - optional metadata after anonymization.
 
@@ -175,13 +177,3 @@ But AI peer review is also risky because reviewing is not just text generation. 
 For our project, the next stage is therefore not just "make the AI smarter." It is to build the dataset, evaluate the system, reduce bias, and add security according to the real use case.
 
 That is the direction I want [paper_reviewer](https://github.com/ShijieTang/paper_reviewer) to move toward: a useful research assistant first, and a more reliable peer-review simulation system over time.
-
-## References
-
-[^1]: "Can We Trust AI Referees? On the Security and Reliability of AI Peer Review." arXiv, 2026. https://arxiv.org/html/2604.23593v1
-
-[^2]: Zhicheng Lin. "Hidden Prompts in Manuscripts Exploit AI-Assisted Peer Review." arXiv, 2025. https://arxiv.org/abs/2507.06185
-
-[^3]: Changjia Zhu, Junjie Xiong, Renkai Ma, Zhicong Lu, Yao Liu, and Lingyao Li. "When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review." arXiv, 2025. https://arxiv.org/abs/2509.09912
-
-[^4]: Shijie Tang, Thu Vu. "paper_reviewer." GitHub repository. https://github.com/ShijieTang/paper_reviewer

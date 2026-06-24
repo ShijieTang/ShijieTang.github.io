@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shijie Tang / Personal Homepage"
+title                    : "Shijie Tang"
 title_separator          : "-"
 name                     : &name "Shijie Tang"
-description              : &description "Master's student in Computational Biology at Carnegie Mellon University"
+description              : &description "Software Engineer at Google. M.S. Computational Biology, Carnegie Mellon University."
 url                      : https://ShijieTang.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ShijieTang/ShijieTang.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "https://github.com/ShijieTang.png"
   name             : "Shijie Tang"
   pronouns         : "He/Him"
-  bio              : "Master's student in Computational Biology at Carnegie Mellon University"
-  location         : "Pittsburgh, PA"
-  employer         : "Carnegie Mellon University"
+  bio              : "Software Engineer at Google. M.S. Computational Biology, Carnegie Mellon University."
+  location         : "United States"
+  employer         : "Google"
   uri              : # URL
   email            : "shijiet@andrew.cmu.edu"
 

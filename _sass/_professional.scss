@@ -1,0 +1,346 @@
+/* ==========================================================================
+   Professional portfolio refresh
+   ========================================================================== */
+
+$portfolio-blue: #1a73e8;
+$portfolio-green: #188038;
+$portfolio-yellow: #fbbc04;
+$portfolio-ink: #202124;
+$portfolio-muted: #5f6368;
+$portfolio-line: #dfe3ea;
+$portfolio-surface: #ffffff;
+$portfolio-page: #f7f9fc;
+
+html {
+  background: $portfolio-page;
+}
+
+body {
+  color: $portfolio-ink;
+  background:
+    linear-gradient(180deg, rgba($portfolio-blue, 0.05), rgba($portfolio-green, 0.03) 320px, $portfolio-page 760px);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $portfolio-blue;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.masthead {
+  background: rgba($portfolio-surface, 0.94);
+  border-bottom: 1px solid rgba($portfolio-line, 0.9);
+  box-shadow: 0 1px 18px rgba(60, 64, 67, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: $portfolio-muted;
+    font-size: 0.92rem;
+    font-weight: 600;
+
+    &:hover {
+      color: $portfolio-blue;
+    }
+  }
+
+  button {
+    background-color: $portfolio-blue;
+    border-radius: 6px;
+  }
+
+  .visible-links {
+    a:before {
+      height: 2px;
+      background: $portfolio-blue;
+    }
+
+    li:first-child a {
+      color: $portfolio-ink;
+      font-weight: 800;
+    }
+  }
+
+  .hidden-links {
+    border-color: $portfolio-line;
+    border-radius: 8px;
+    box-shadow: 0 16px 36px rgba(60, 64, 67, 0.16);
+  }
+}
+
+.masthead__menu-item--lg {
+  padding-right: 2em;
+}
+
+#main {
+  margin-top: 2.5em;
+}
+
+.page__title {
+  color: $portfolio-ink;
+  font-size: 2.2em;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.page__content {
+  color: $portfolio-ink;
+
+  h2 {
+    margin-top: 2.6rem;
+    padding-bottom: 0.55rem;
+    color: $portfolio-ink;
+    font-size: 1.35rem;
+    border-bottom: 1px solid $portfolio-line;
+  }
+
+  h3 {
+    color: $portfolio-ink;
+    font-size: 1.05rem;
+  }
+
+  p,
+  li {
+    line-height: 1.72;
+  }
+
+  strong {
+    color: $portfolio-ink;
+  }
+}
+
+.page__meta,
+.archive__item-excerpt,
+figcaption {
+  color: $portfolio-muted;
+}
+
+.btn {
+  padding: 0.62rem 0.95rem;
+  border-radius: 6px;
+  font-size: 0.86rem;
+  box-shadow: none;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+.btn--primary {
+  color: #fff !important;
+  background-color: $portfolio-blue;
+
+  &:hover {
+    background-color: mix(#000, $portfolio-blue, 12%);
+  }
+}
+
+.btn--secondary {
+  color: $portfolio-blue !important;
+  background-color: $portfolio-surface;
+  border: 1px solid rgba($portfolio-blue, 0.25) !important;
+
+  &:hover {
+    color: #fff !important;
+    background-color: $portfolio-blue;
+    border-color: $portfolio-blue !important;
+  }
+}
+
+.sidebar {
+  color: $portfolio-ink;
+
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    padding-right: 1rem;
+  }
+
+  p,
+  li {
+    color: $portfolio-muted;
+  }
+}
+
+.author__avatar img {
+  border: 1px solid $portfolio-line;
+  box-shadow: 0 12px 30px rgba(60, 64, 67, 0.14);
+}
+
+.sidebar .author__name {
+  color: $portfolio-ink;
+  font-size: 1.12rem;
+  font-weight: 800;
+}
+
+.author__pronouns {
+  color: $portfolio-muted;
+}
+
+.author__bio {
+  color: $portfolio-muted;
+}
+
+.author__urls {
+  border-color: $portfolio-line;
+  border-radius: 8px;
+  box-shadow: 0 16px 36px rgba(60, 64, 67, 0.14);
+
+  @include breakpoint($large) {
+    box-shadow: none;
+  }
+
+  a {
+    color: $portfolio-muted;
+    border-radius: 6px;
+
+    &:hover {
+      color: $portfolio-blue;
+      background: rgba($portfolio-blue, 0.07);
+      text-decoration: none;
+    }
+  }
+}
+
+.profile-hero {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 0 2rem;
+  border-bottom: 1px solid $portfolio-line;
+}
+
+.profile-eyebrow {
+  margin-bottom: 0.85rem !important;
+  color: $portfolio-blue;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.profile-lede {
+  max-width: 780px;
+  margin-top: 1rem !important;
+  color: $portfolio-muted;
+  font-size: 1.16rem !important;
+  line-height: 1.65 !important;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.35rem;
+}
+
+.profile-snapshot,
+.focus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 1.5rem 0 2rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.profile-snapshot > div,
+.focus-card {
+  min-width: 0;
+  padding: 1rem;
+  background: rgba($portfolio-surface, 0.88);
+  border: 1px solid $portfolio-line;
+  border-top: 3px solid $portfolio-blue;
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(60, 64, 67, 0.08);
+}
+
+.profile-snapshot > div:nth-child(2),
+.focus-card:nth-child(2) {
+  border-top-color: $portfolio-green;
+}
+
+.profile-snapshot > div:nth-child(3),
+.focus-card:nth-child(3) {
+  border-top-color: $portfolio-yellow;
+}
+
+.profile-snapshot span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: $portfolio-muted;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profile-snapshot strong {
+  display: block;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.focus-card {
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+    border-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: $portfolio-muted;
+    font-size: 0.95rem;
+  }
+}
+
+.archive__item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba($portfolio-line, 0.85);
+
+  &:hover {
+    .archive__item-title {
+      text-decoration: none;
+    }
+  }
+}
+
+.archive__item-title {
+  color: $portfolio-ink;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $portfolio-blue;
+      text-decoration: none;
+    }
+  }
+}
+
+.page__taxonomy-item {
+  border-color: $portfolio-line;
+  border-radius: 999px;
+  background: rgba($portfolio-surface, 0.72);
+}
+
+.page__footer {
+  color: $portfolio-muted;
+  background: $portfolio-surface;
+  border-top: 1px solid $portfolio-line;
+}
+
+@media screen and (max-width: $small) {
+  .profile-lede {
+    font-size: 1.02rem !important;
+  }
+
+  .profile-actions .btn {
+    width: 100%;
+  }
+}

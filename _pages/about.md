@@ -7,25 +7,70 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in [Computational Biology](https://cbd.cmu.edu/) at Carnegie Mellon University (expected 2026), working with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.stat.cmu.edu/~weiwu2/). My research lies at the intersection of **machine learning**, **computational genomics**, and **sequence design**, with a focus on developing AI-driven methods to address fundamental challenges in molecular biology.
+<section class="profile-hero" markdown="1">
+<p class="profile-eyebrow">Software Engineer at Google</p>
 
-I received my B.S. in Bioinformatics from the [ZJU–University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024. I have collaborated with [Prof. Christine Orengo](https://www.ucl.ac.uk/biochemical-engineering/people/professor-christine-orengo) at University College London on protein design, and my cancer genomics research at ZJU-Edinburgh resulted in a **co-first author publication in *Gut*** (2024, IF: 24.5).
+<p class="profile-lede">I build reliable software and AI systems, with a background in machine learning, computational biology, accessibility tooling, and sequence design.</p>
+
+<div class="profile-actions">
+  <a class="btn btn--primary" href="/cv/">View CV</a>
+  <a class="btn btn--secondary" href="/publications/">Publications</a>
+  <a class="btn btn--secondary" href="https://github.com/ShijieTang">GitHub</a>
+</div>
+</section>
+
+<section class="profile-snapshot" aria-label="Current profile snapshot">
+  <div>
+    <span>Current role</span>
+    <strong>Software Engineer, Google</strong>
+  </div>
+  <div>
+    <span>Recent degree</span>
+    <strong>M.S. Computational Biology, CMU, May 2026</strong>
+  </div>
+  <div>
+    <span>Core strengths</span>
+    <strong>Production software, applied AI, ML research</strong>
+  </div>
+</section>
+
+## About
+
+I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.stat.cmu.edu/~weiwu2/). I am now a **Software Engineer at Google**.
+
+My work sits at the intersection of production software engineering, machine learning, and computational biology. I am especially interested in building AI systems that are reliable, measurable, and useful in real workflows.
+
+Before joining Google full-time, I was a Software Engineering Intern at Google, where I built an AI-powered accessibility validation system using Gemini and achieved **>0.95 recall**. My research background includes controllable mRNA sequence design, shortcut learning mitigation, protein design, and cancer genomics.
+
+I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024. My cancer genomics research at ZJU-Edinburgh resulted in a **co-first author publication in *Gut***.
 
 ## News
 
+- **[Jun 2026]** Joined **Google** as a Software Engineer
+- **[May 2026]** Graduated from **Carnegie Mellon University** with an M.S. in Computational Biology
 - **[Aug 2025]** Started new research project on shortcut learning in NLP with Prof. Carl Kingsford at CMU
-- **[Jun–Aug 2025]** Software Engineering Intern at **Google** — built AI-powered accessibility validation system using Gemini, achieving >0.95 recall
+- **[Jun-Aug 2025]** Software Engineering Intern at **Google** - built AI-powered accessibility validation system using Gemini, achieving >0.95 recall
 - **[May 2025]** Contributed to the **ARCADE** paper on controllable mRNA sequence design
 - **[Aug 2024]** Co-first author paper published in ***Gut***: MED12 loss sensitizes pancreatic cancer to immunotherapy
 
-## Research Interests
+## Focus Areas
 
-My research focuses on building computational methods and AI models that decode biological complexity:
+<div class="focus-grid" markdown="1">
+<div class="focus-card" markdown="1">
+### Production AI Systems
+Building AI-assisted tools that are evaluated against measurable quality, reliability, and user-impact targets.
+</div>
 
-- **Sequence design**: Developing controllable generative models for mRNA and protein sequences with optimized properties
-- **Foundation models for biology**: Leveraging large language models and representation learning for genomics and proteomics
-- **Cancer genomics**: Integrative multi-omics analysis to uncover mechanisms of tumor immune evasion
-- **Shortcut learning in NLP**: Peer learning approaches to improve robustness of large language models
+<div class="focus-card" markdown="1">
+### Software Engineering
+Designing maintainable systems, automation, and developer workflows with clear interfaces and practical tradeoffs.
+</div>
+
+<div class="focus-card" markdown="1">
+### Computational Biology
+Applying machine learning to sequence design, genomics, protein modeling, and biological data analysis.
+</div>
+</div>
 
 ## Selected Publications
 
@@ -43,9 +88,9 @@ Tang Y\*, **Tang S\***, Yang W, et al. *Gut*, 2024. \[[DOI](https://doi.org/10.1
 
 ## Research Experience
 
-**Carnegie Mellon University** — Research Assistant (Aug 2025 – present)  
+**Carnegie Mellon University** — Research Assistant (Aug 2025 – May 2026)<br>
 *Advisors: Prof. Carl Kingsford & Prof. Wei Wu*  
-Developing LLM-based methods to mitigate shortcut learning in NLP models, improving inference accuracy from 0.80 to 0.94.
+Developed LLM-based methods to mitigate shortcut learning in NLP models, improving inference accuracy from 0.80 to 0.94.
 
 **Carnegie Mellon University** — Research Assistant (Dec 2024 – May 2025)  
 *Advisor: Prof. Carl Kingsford*  
@@ -61,4 +106,4 @@ Performed integrative multi-omics analysis characterizing MED12's role in histon
 
 ## Personal Interests
 
-Outside of research, I enjoy astrophotography and travel photography with my Canon G7X Mark III. I recently captured Comet C/2023 A3 from Pittsburgh.
+Outside of work, I enjoy astrophotography and travel photography with my Canon G7X Mark III. I recently captured Comet C/2023 A3 from Pittsburgh.
