@@ -69,29 +69,10 @@
     }, 2600);
   }
 
-  function setupPhotoTilt() {
-    var visual = document.querySelector(".profile-hero__visual");
-    if (!visual || prefersReducedMotion) return;
-
-    visual.addEventListener("mousemove", function (event) {
-      var rect = visual.getBoundingClientRect();
-      var x = ((event.clientX - rect.left) / rect.width - 0.5) * 8;
-      var y = ((event.clientY - rect.top) / rect.height - 0.5) * -8;
-      visual.style.setProperty("--tilt-x", x.toFixed(2) + "deg");
-      visual.style.setProperty("--tilt-y", y.toFixed(2) + "deg");
-    });
-
-    visual.addEventListener("mouseleave", function () {
-      visual.style.setProperty("--tilt-x", "0deg");
-      visual.style.setProperty("--tilt-y", "0deg");
-    });
-  }
-
   document.addEventListener("DOMContentLoaded", function () {
     updateProgress();
     setupReveals();
     setupRotator();
-    setupPhotoTilt();
   });
 
   window.addEventListener("scroll", updateProgress, { passive: true });

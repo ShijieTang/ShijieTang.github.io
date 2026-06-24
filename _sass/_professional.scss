@@ -18,7 +18,9 @@ html {
 body {
   color: $portfolio-ink;
   background:
-    linear-gradient(180deg, rgba($portfolio-blue, 0.05), rgba($portfolio-green, 0.03) 320px, $portfolio-page 760px);
+    linear-gradient(90deg, rgba($portfolio-blue, 0.045) 1px, transparent 1px) 0 0 / 72px 72px,
+    linear-gradient(180deg, rgba($portfolio-green, 0.04) 1px, transparent 1px) 0 0 / 72px 72px,
+    linear-gradient(180deg, #fff 0%, $portfolio-page 72%);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -31,6 +33,7 @@ a {
 
 .masthead {
   background: rgba($portfolio-surface, 0.94);
+  border-top: 3px solid $portfolio-blue;
   border-bottom: 1px solid rgba($portfolio-line, 0.9);
   box-shadow: 0 1px 18px rgba(60, 64, 67, 0.08);
   backdrop-filter: blur(18px);
@@ -97,6 +100,16 @@ a {
     color: $portfolio-ink;
     font-size: 1.35rem;
     border-bottom: 1px solid $portfolio-line;
+
+    &:before {
+      display: block;
+      width: 5.5rem;
+      height: 3px;
+      margin-bottom: -0.65rem;
+      content: "";
+      background: linear-gradient(90deg, $portfolio-blue, $portfolio-green, $portfolio-yellow);
+      border-radius: 999px;
+    }
   }
 
   h3 {
@@ -207,9 +220,13 @@ figcaption {
 }
 
 .profile-hero {
-  margin-bottom: 1.5rem;
-  padding: 1.25rem 0 2rem;
-  border-bottom: 1px solid $portfolio-line;
+  max-width: 780px;
+  margin-bottom: 1.25rem;
+  padding: 1.35rem 1.45rem 1.25rem;
+  background: rgba($portfolio-surface, 0.92);
+  border: 1px solid $portfolio-line;
+  border-radius: 8px;
+  box-shadow: 0 14px 38px rgba(60, 64, 67, 0.11);
 }
 
 .profile-eyebrow {
@@ -222,26 +239,27 @@ figcaption {
 }
 
 .profile-lede {
-  max-width: 780px;
-  margin-top: 1rem !important;
+  max-width: 720px;
+  margin-top: 0.8rem !important;
   color: $portfolio-muted;
-  font-size: 1.16rem !important;
-  line-height: 1.65 !important;
+  font-size: 0.96rem !important;
+  line-height: 1.6 !important;
 }
 
 .profile-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-top: 1.35rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 .profile-snapshot,
 .focus-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.9rem;
-  margin: 1.5rem 0 2rem;
+  gap: 0.75rem;
+  max-width: 780px;
+  margin: 0.9rem 0 2rem;
 
   @include breakpoint($medium) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -251,12 +269,12 @@ figcaption {
 .profile-snapshot > article,
 .focus-card {
   min-width: 0;
-  padding: 1rem;
+  padding: 0.86rem;
   background: rgba($portfolio-surface, 0.88);
   border: 1px solid $portfolio-line;
   border-top: 3px solid $portfolio-blue;
   border-radius: 8px;
-  box-shadow: 0 10px 28px rgba(60, 64, 67, 0.08);
+  box-shadow: 0 8px 22px rgba(60, 64, 67, 0.07);
 }
 
 .profile-snapshot > article:nth-child(2),

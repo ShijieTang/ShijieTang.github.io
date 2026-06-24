@@ -10,7 +10,7 @@ redirect_from:
 <section class="profile-hero" aria-label="Introduction">
   <div class="profile-hero__copy">
     <p class="profile-kicker">Google Software Engineer / CMU Computational Biology</p>
-    <h1>Building <span class="profile-rotator" data-role-rotator data-phrases="reliable AI systems|accessibility tools|sequence-design software|research-grade products">reliable AI systems</span> where software engineering meets biology.</h1>
+    <h1>Building <span class="profile-rotator" data-role-rotator data-phrases="reliable AI tools|accessibility systems|sequence-design software|research software">reliable AI tools</span> for software and biology.</h1>
     <p class="profile-lede">I am Shijie Tang, a Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
 
     <div class="profile-actions" aria-label="Primary links">
@@ -34,14 +34,6 @@ redirect_from:
       <span>Ship</span>
     </div>
   </div>
-
-  <aside class="profile-hero__visual" aria-label="Personal profile photo and context">
-    <img src="/images/photo-s.jpg" alt="Shijie Tang near the Washington Monument">
-    <div class="profile-photo-card">
-      <span>Current chapter</span>
-      <strong>From CMU research to production systems at Google</strong>
-    </div>
-  </aside>
 </section>
 
 <section class="profile-snapshot" aria-label="Current profile snapshot">
