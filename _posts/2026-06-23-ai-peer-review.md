@@ -17,13 +17,13 @@ Peer review is one of the most important quality-control systems in science, but
 
 This makes AI-assisted peer review feel almost inevitable. But I do not think the key question is simply whether AI can review papers. A more serious question is: under what conditions can AI feedback be useful, fair, and safe enough to trust?
 
-Recently, I have been working on a small project around this question: [paper_reviewer](https://github.com/ShijieTang/paper_reviewer). The goal is not to replace human reviewers, but to explore whether a multi-agent AI system can help authors receive earlier, more structured, and more diverse feedback before formal submission.
+Recently, I have been working on a small project around this question: [paper_reviewer](https://github.com/ShijieTang/paper_reviewer) [[4]](#ref-4). The goal is not to replace human reviewers, but to explore whether a multi-agent AI system can help authors receive earlier, more structured, and more diverse feedback before formal submission.
 
 ## 1. The growth of AI use in peer review
 
-AI is already entering the peer-review workflow, even when it is not always formally acknowledged. A recent arXiv paper, ["Can We Trust AI Referees? On the Security and Reliability of AI Peer Review"](https://arxiv.org/html/2604.23593v1), summarizes a broader trend: scientific output is increasing, reviewer capacity is limited, and LLMs are attractive because they can quickly summarize papers, identify weaknesses, and generate review-style feedback.
+AI is already entering the peer-review workflow, even when it is not always formally acknowledged. A recent arXiv paper, "Can We Trust AI Referees? On the Security and Reliability of AI Peer Review," summarizes a broader trend: scientific output is increasing, reviewer capacity is limited, and LLMs are attractive because they can quickly summarize papers, identify weaknesses, and generate review-style feedback [[1]](#ref-1).
 
-The same paper also points out that AI use in reviewing is no longer just hypothetical. Some conferences and research communities are experimenting with AI-assisted reviewing, while other venues are tightening their policies because of confidentiality, reliability, and misuse concerns.
+The same paper also points out that AI use in reviewing is no longer just hypothetical. Some conferences and research communities are experimenting with AI-assisted reviewing, while other venues are tightening their policies because of confidentiality, reliability, and misuse concerns [[1]](#ref-1).
 
 From an author's perspective, this is understandable. Before submitting to a conference or journal, it is useful to ask:
 
@@ -37,15 +37,15 @@ These are exactly the kinds of questions where an AI assistant can be helpful, e
 
 ## 2. Security and bias concerns in AI peer-review systems
 
-The paper that caught my attention focuses on the security and reliability risks of AI peer review. It describes how AI referees can be vulnerable across the review lifecycle, including manuscript processing, deep review, rebuttal handling, and meta-review synthesis.
+The paper that caught my attention focuses on the security and reliability risks of AI peer review. It describes how AI referees can be vulnerable across the review lifecycle, including manuscript processing, deep review, rebuttal handling, and meta-review synthesis [[1]](#ref-1).
 
-Several risks are especially relevant:
+Several risks are especially relevant across recent studies of AI-assisted reviewing [[1]](#ref-1), [[2]](#ref-2), [[3]](#ref-3):
 
-- **Prompt injection:** authors may hide instructions inside a manuscript to manipulate an AI reviewer.
-- **Authority bias:** an AI system may give more favorable reviews when a paper appears to come from a prestigious institution or famous author.
-- **Assertion strength bias:** confident writing may make weak claims appear stronger than they are.
-- **Rebuttal sycophancy:** an AI reviewer may be overly persuaded by an author's rebuttal, even when the rebuttal does not fully answer the criticism.
-- **Context poisoning:** retrieved context or supporting material may distort the final review.
+- **Prompt injection:** authors may hide instructions inside a manuscript to manipulate an AI reviewer [[2]](#ref-2), [[3]](#ref-3).
+- **Authority bias:** an AI system may give more favorable reviews when a paper appears to come from a prestigious institution or famous author [[3]](#ref-3).
+- **Assertion strength bias:** confident writing may make weak claims appear stronger than they are [[3]](#ref-3).
+- **Rebuttal sycophancy:** an AI reviewer may be overly persuaded by an author's rebuttal, even when the rebuttal does not fully answer the criticism [[1]](#ref-1).
+- **Context poisoning:** retrieved context or supporting material may distort the final review [[1]](#ref-1).
 
 These problems do not mean AI peer review is useless. Instead, they show that AI peer-review systems should be treated as evaluative infrastructure, not just chatbots with a review prompt.
 
@@ -57,7 +57,7 @@ For **business use**, journal platforms, or critical conference workflows, the s
 
 ## 3. Introducing our GitHub project
 
-Our project, [paper_reviewer](https://github.com/ShijieTang/paper_reviewer), is a lightweight multi-agent system for AI-assisted manuscript feedback. The core idea is to simulate several reviewer perspectives instead of relying on a single generic review.
+Our project, [paper_reviewer](https://github.com/ShijieTang/paper_reviewer), is a lightweight multi-agent system for AI-assisted manuscript feedback [[4]](#ref-4). The core idea is to simulate several reviewer perspectives instead of relying on a single generic review.
 
 At a high level, the system is designed to:
 
@@ -81,7 +81,7 @@ For private or high-stakes manuscripts, local-first tools or clearly documented 
 
 ## 5. Our next steps
 
-Based on the recent literature and our current project stage, I would rank the next steps as follows.
+Based on the recent literature and our current project stage, I would rank the next steps as follows [[1]](#ref-1), [[3]](#ref-3), [[4]](#ref-4).
 
 ### Step 1: Build and update the evaluation dataset
 
@@ -143,7 +143,7 @@ For personal use, the system can start with lightweight checks:
 
 For business, journal, or conference use, the system should be much stricter:
 
-- detect hidden prompt injection in PDFs or source files,
+- detect hidden prompt injection in PDFs or source files [[2]](#ref-2),
 - separate manuscript content from model instructions,
 - log review pipeline steps,
 - use adversarial test cases,
@@ -176,4 +176,14 @@ But AI peer review is also risky because reviewing is not just text generation. 
 
 For our project, the next stage is therefore not just "make the AI smarter." It is to build the dataset, evaluate the system, reduce bias, and add security according to the real use case.
 
-That is the direction I want [paper_reviewer](https://github.com/ShijieTang/paper_reviewer) to move toward: a useful research assistant first, and a more reliable peer-review simulation system over time.
+That is the direction I want [paper_reviewer](https://github.com/ShijieTang/paper_reviewer) to move toward: a useful research assistant first, and a more reliable peer-review simulation system over time [[4]](#ref-4).
+
+## References
+
+1. <span id="ref-1"></span>"Can We Trust AI Referees? On the Security and Reliability of AI Peer Review." *arXiv*, 2026. [https://arxiv.org/html/2604.23593v1](https://arxiv.org/html/2604.23593v1)
+
+2. <span id="ref-2"></span>Zhicheng Lin. "Hidden Prompts in Manuscripts Exploit AI-Assisted Peer Review." *arXiv*, 2025. [https://arxiv.org/abs/2507.06185](https://arxiv.org/abs/2507.06185)
+
+3. <span id="ref-3"></span>Changjia Zhu, Junjie Xiong, Renkai Ma, Zhicong Lu, Yao Liu, and Lingyao Li. "When Your Reviewer is an LLM: Biases, Divergence, and Prompt Injection Risks in Peer Review." *arXiv*, 2025. [https://arxiv.org/abs/2509.09912](https://arxiv.org/abs/2509.09912)
+
+4. <span id="ref-4"></span>Shijie Tang and Thu Vu. "paper_reviewer." GitHub repository, 2026. [https://github.com/ShijieTang/paper_reviewer](https://github.com/ShijieTang/paper_reviewer)
