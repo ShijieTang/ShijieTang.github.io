@@ -11,11 +11,14 @@ redirect_from:
   <div class="profile-hero__copy">
     <p class="profile-kicker">Incoming Google Software Engineer / CMU Computational Biology / ZJU-UoE Bioinformatics</p>
     <h1>Hi, welcome to my personal website!</h1>
-    <p class="profile-lede">I am Shijie Tang, an incoming Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
+    <p class="profile-lede">I am Shijie Tang, an incoming Software Engineer at Google and recent CMU M.S. graduate. This site shares a high-level view of my activities across software engineering, machine learning, and computational biology.</p>
 
     <div class="profile-actions" aria-label="Primary links">
+      {% comment %}CV is hidden for now.
       <a class="profile-button profile-button--primary" href="/cv/">View CV</a>
-      <a class="profile-button" href="/publications/">Publications</a>
+      {% endcomment %}
+      <a class="profile-button profile-button--primary" href="/publications/">Publications</a>
+      <a class="profile-button" href="mailto:{{ site.author.email }}">Contact for CV</a>
       <a class="profile-button" href="https://github.com/ShijieTang">GitHub</a>
     </div>
 
@@ -59,20 +62,43 @@ redirect_from:
 
 I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.cs.cmu.edu/~weiwu2/). I will join **Google** as a Software Engineer in **July 2026**.
 
-My work sits at the intersection of production software engineering, machine learning, and computational biology. I am especially interested in building AI systems that are reliable, measurable, and useful in real workflows.
+My work sits at the intersection of production software engineering, machine learning, and computational biology. I am especially interested in practical AI systems, reliable tools, and biological data analysis.
 
-Before joining Google full-time, I was a Software Engineering Intern at Google, where I built an AI-powered accessibility validation system using Gemini and achieved **>0.95 recall**. My research background includes controllable mRNA sequence design, shortcut learning mitigation, protein design, and cancer genomics.
+Before joining Google full-time, I was a Software Engineering Intern at Google, where I worked on AI-assisted accessibility tooling. My research background includes machine learning methods for language and biological sequence problems.
 
-I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024. My cancer genomics research at ZJU-Edinburgh resulted in a **co-first author publication in *Gut***.
+I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024.
+
+For a detailed CV or additional background, please [contact me directly by email](mailto:{{ site.author.email }}).
+
+## Experience Summary
+
+<div class="focus-grid" markdown="1">
+<div class="focus-card" markdown="1">
+### Software Engineering
+I have worked on AI-assisted engineering and accessibility tooling, with an interest in systems that are useful in real workflows.
+</div>
+
+<div class="focus-card" markdown="1">
+### Machine Learning Research
+At CMU, I worked on machine learning research related to robustness and biological sequence design.
+</div>
+
+<div class="focus-card" markdown="1">
+### Computational Biology
+My research background includes computational biology, genomics, protein modeling, and biological sequence analysis.
+</div>
+</div>
 
 ## News
 
 - **[July 2026]** Joining **Google** as a Software Engineer
 - **[May 2026]** Graduated from **Carnegie Mellon University** with an M.S. in Computational Biology
 - **[Aug 2025]** Started new research project on shortcut learning in NLP with Prof. Carl Kingsford at CMU
-- **[Jun-Aug 2025]** Software Engineering Intern at **Google** - built AI-powered accessibility validation system using Gemini, achieving >0.95 recall
+- **[Jun-Aug 2025]** Software Engineering Intern at **Google**, working on AI-assisted accessibility tooling
 - **[May 2025]** Contributed to the **ARCADE** paper on controllable mRNA sequence design
 - **[Aug 2024]** Co-first author paper published in ***Gut***: MED12 loss sensitizes pancreatic cancer to immunotherapy
+
+{% comment %}Focus Areas section hidden for now because the homepage now uses a shorter Experience Summary.
 
 ## Focus Areas
 
@@ -93,6 +119,8 @@ Applying machine learning to sequence design, genomics, protein modeling, and bi
 </div>
 </div>
 
+{% endcomment %}
+
 ## Selected Publications
 
 **Models Know Their Shortcuts: Deployment-Time Shortcut Mitigation**  
@@ -106,6 +134,8 @@ Li J, Lai HS, Liang L, Du S, **Tang S**, Kingsford C. *bioRxiv*, 2025. \[[Paper]
 
 **MED12 loss activates endogenous retroelements to sensitise immunotherapy in pancreatic cancer**  
 Tang Y\*, **Tang S\***, Yang W, et al. *Gut*, 2024. \[[DOI](https://doi.org/10.1136/gutjnl-2024-332350)\] (\*co-first author)
+
+{% comment %}Detailed experience section hidden for now.
 
 ## Research Experience
 
@@ -124,6 +154,8 @@ Applied deep learning and protein language models (ESM, AlphaFold2) for enzyme d
 **ZJU–Edinburgh Joint Institute** — Research Assistant (Jun 2022 – Jun 2023)  
 *Advisors: Dr. Chaochen Wang & Dr. Jing Xue*  
 Performed integrative multi-omics analysis characterizing MED12's role in histone regulation and immune evasion in pancreatic cancer, resulting in a co-first author publication in *Gut*.
+
+{% endcomment %}
 
 ## Personal Interests
 

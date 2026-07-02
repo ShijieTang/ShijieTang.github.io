@@ -156,6 +156,8 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/cv.md
+  - files/CV_Shijie_Tang_CMU.pdf
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
