@@ -66,7 +66,7 @@ My work sits at the intersection of production software engineering, machine lea
 
 Before joining Google full-time, I was a Software Engineering Intern at Google, where I worked on AI-assisted accessibility tooling. My research background includes machine learning methods for language and biological sequence problems.
 
-I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024.
+I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint Institute](https://zje.zju.edu.cn/) in 2024. During my undergraduate studies, I worked with [Prof. Chaochen Wang](https://person.zju.edu.cn/en/wangchaochen) in his lab on bioinformatics and cancer genomics research, which led to a co-first author publication in [*Gut*](https://doi.org/10.1136/gutjnl-2024-332350).
 
 For a detailed CV or additional background, please [contact me directly by email](mailto:{{ site.author.email }}).
 
