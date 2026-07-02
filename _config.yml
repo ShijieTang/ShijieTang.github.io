@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Shijie Tang"
 title_separator          : "-"
 name                     : &name "Shijie Tang"
-description              : &description "Software Engineer at Google. M.S. Computational Biology, Carnegie Mellon University."
+description              : &description "Incoming Software Engineer at Google, joining July 2026. M.S. Computational Biology, Carnegie Mellon University."
 url                      : https://ShijieTang.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ShijieTang/ShijieTang.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "https://github.com/ShijieTang.png"
   name             : "Shijie Tang"
   pronouns         : "He/Him"
-  bio              : "Software Engineer at Google. M.S. Computational Biology, Carnegie Mellon University."
+  bio              : "Incoming Software Engineer at Google, joining July 2026. M.S. Computational Biology, Carnegie Mellon University."
   location         : "United States"
-  employer         : "Google"
+  employer         : "Google (incoming)"
   uri              : # URL
   email            : "shijiet@andrew.cmu.edu"
 

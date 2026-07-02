@@ -9,9 +9,9 @@ redirect_from:
 
 <section class="profile-hero" aria-label="Introduction">
   <div class="profile-hero__copy">
-    <p class="profile-kicker">Google Software Engineer / CMU Computational Biology / ZJU-UoE Bioinformatics</p>
+    <p class="profile-kicker">Incoming Google Software Engineer / CMU Computational Biology / ZJU-UoE Bioinformatics</p>
     <h1>Hi, welcome to my personal website!</h1>
-    <p class="profile-lede">I am Shijie Tang, a Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
+    <p class="profile-lede">I am Shijie Tang, an incoming Software Engineer at Google and recent CMU M.S. graduate. My work connects production engineering, machine learning, accessibility tooling, and computational biology.</p>
 
     <div class="profile-actions" aria-label="Primary links">
       <a class="profile-button profile-button--primary" href="/cv/">View CV</a>
@@ -20,7 +20,7 @@ redirect_from:
     </div>
 
     <div class="profile-tags" aria-label="Profile highlights">
-      <span>Google SWE</span>
+      <span>Incoming Google SWE</span>
       <span>CMU M.S. 2026</span>
       <span>AI Peer Review</span>
       <span>AI Accessibility</span>
@@ -39,9 +39,9 @@ redirect_from:
 
 <section class="profile-snapshot" aria-label="Current profile snapshot">
   <article>
-    <span>01 / Current role</span>
-    <strong>Software Engineer, Google</strong>
-    <p>Building AI platform for Android. </p>
+    <span>01 / Upcoming role</span>
+    <strong>Incoming Software Engineer, Google</strong>
+    <p>Joining in July 2026 to work on AI platform for Android.</p>
   </article>
   <article>
     <span>02 / Recent milestone</span>
@@ -57,7 +57,7 @@ redirect_from:
 
 ## About
 
-I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.cs.cmu.edu/~weiwu2/). I am now a **Software Engineer at Google**.
+I recently graduated from [Carnegie Mellon University](https://cbd.cmu.edu/) in **May 2026** with an M.S. in Computational Biology, where I worked with [Prof. Carl Kingsford](https://kingsfordlab.cbd.cmu.edu/) and [Prof. Wei Wu](https://www.cs.cmu.edu/~weiwu2/). I will join **Google** as a Software Engineer in **July 2026**.
 
 My work sits at the intersection of production software engineering, machine learning, and computational biology. I am especially interested in building AI systems that are reliable, measurable, and useful in real workflows.
 
@@ -67,7 +67,7 @@ I received my B.S. in Bioinformatics from the [ZJU-University of Edinburgh Joint
 
 ## News
 
-- **[July 2026]** Joined **Google** as a Software Engineer
+- **[July 2026]** Joining **Google** as a Software Engineer
 - **[May 2026]** Graduated from **Carnegie Mellon University** with an M.S. in Computational Biology
 - **[Aug 2025]** Started new research project on shortcut learning in NLP with Prof. Carl Kingsford at CMU
 - **[Jun-Aug 2025]** Software Engineering Intern at **Google** - built AI-powered accessibility validation system using Gemini, achieving >0.95 recall

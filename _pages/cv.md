@@ -18,7 +18,7 @@ Education
 
 Industry Experience
 ======
-* **Software Engineer**, Google (July 2026 - present)
+* **Incoming Software Engineer**, Google (starting July 2026)
   * AI platform for Android 
 
 * **Software Engineering Intern**, Google Inc. (Jun - Aug 2025)
@@ -32,6 +32,7 @@ Research Experience
   * Advisor: *Prof. Carl Kingsford*
   * Developed an LLM-based method to address shortcut learning in general NLP models
   * Improved algorithm stability and increased model inference accuracy from 0.80 to 0.94
+  * Benchmarked advanced shortcut mitigation algorithms.
 
 * **Controllable mRNA Sequence Design (ARCADE)**, Carnegie Mellon University (Dec 2024 - May 2025)
   * Advisor: *Prof. Carl Kingsford*
