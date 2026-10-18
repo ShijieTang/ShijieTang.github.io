@@ -19,7 +19,7 @@ Education
 
 Industry Experience
 ======
-* **Incoming Software Engineer**, Google (starting July 2026)
+* **Software Engineer**, Google (July 2026 - Present)
   * AI platform for Android 
 
 * **Software Engineering Intern**, Google Inc. (Jun - Aug 2025)
@@ -29,6 +29,10 @@ Industry Experience
 
 Research Experience
 ======
+* **Multi-Agent LLM Peer Review System**, Carnegie Mellon University (Apr 2026 - Present)
+  * Built a multi-agent system simulating ML paper peer review using LLM-based reviewer personas, author rebuttals, and RAG-based related-work evaluation
+  * Benchmarked multi-round review workflows and module ablations against OpenReview and NLPeer datasets
+
 * **Peer Learning for NLP Shortcut Mitigation**, Carnegie Mellon University (Aug 2025 - May 2026)
   * Advisor: *Prof. Carl Kingsford*
   * Developed an LLM-based method to address shortcut learning in general NLP models
